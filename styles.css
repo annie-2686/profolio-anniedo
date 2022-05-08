@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .hero {
-  background: #c8d9eb;
+  background: #ecf2f9;
   padding: 80px 20px;
 }
 
@@ -34,4 +34,14 @@ h2 {
 
 p {
   line-height: 30px;
+}
+
+.btn-branding {
+        background: #f0d9da;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
 }
