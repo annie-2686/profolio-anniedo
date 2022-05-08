@@ -4,6 +4,7 @@ body {
 }
 .hero {
   background: #c8d9eb;
+  padding: 80px 20px;
 }
 
 .intro,
@@ -11,4 +12,26 @@ h1,
 h2 {
   color: black;
   text-align: center;
+}
+
+.intro {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+p {
+  line-height: 30px;
 }
