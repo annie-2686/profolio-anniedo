@@ -1,9 +1,15 @@
+:root {
+  --branding-color: #ecf2f9;
+  --darkbranding-color: #c8d9eb;
+}
+
+
 body {
   font-family: "Lato", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 .hero {
-  background: #ecf2f9;
+  background:  var(--branding-color);
   padding: 80px 20px;
 }
 
@@ -37,7 +43,7 @@ p {
 }
 
 .btn-branding {
-        background: #f0d9da;
+        background:  var(--darkbranding-color);
     border-radius: 4px;
     color: white;
     font-size: 18px;
