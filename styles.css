@@ -57,6 +57,36 @@ p {
 .shorttext {
   text-align: center;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 80px;
+}
+
+.textinfo {
+  text-align: left;
+  background: none;
+  margin-left: -15px;
+  padding-top: 5px;
+}
+
+.titletext {
+  text-align: left;
+  background: none;
+  padding-top: 10px;
+}
+
+.primary-link {
+  border: 3px solid var(--darkbranding-color);
+  color: var(--darkbranding-color);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-left: -5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.primary-link:hover {
+  color: black;
 }
