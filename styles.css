@@ -51,6 +51,12 @@ p {
   border-radius: 4px;
   color: white;
   font-size: 20px;
-  line-height: 27px;
-  padding: 15px, 30px;
+  padding: 25px;
+}
+
+.shorttext {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 80px;
 }
