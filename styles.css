@@ -51,7 +51,7 @@ p {
   border-radius: 4px;
   color: white;
   font-size: 20px;
-  padding: 25px;
+  padding: 15px 30px;
 }
 
 .shorttext {
@@ -64,27 +64,28 @@ p {
 .textinfo {
   text-align: left;
   background: none;
-  margin-left: -15px;
-  padding-top: 5px;
+  margin: 0px 20px;
+  padding-bottom: 20px;
+  color: #6c757d;
+  font-size: 15px;
 }
 
 .titletext {
   text-align: left;
-  background: none;
-  padding-top: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px 20px;
 }
 
 .primary-link {
   border: 3px solid var(--darkbranding-color);
   color: var(--darkbranding-color);
-  margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
-  text-transform: capitalize;
-  margin-left: -5px;
   font-size: 18px;
   font-weight: bold;
+  margin-left: 15px;
 }
 
 .primary-link:hover {
