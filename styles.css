@@ -67,14 +67,23 @@ p {
   margin: 0px 20px;
   padding-bottom: 20px;
   color: #6c757d;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .titletext {
   text-align: left;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
-  margin: 0px 20px;
+
+  margin-left: 20px;
+}
+
+.weathertext {
+  text-align: left;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .primary-link {
@@ -86,6 +95,7 @@ p {
   font-size: 18px;
   font-weight: bold;
   margin-left: 15px;
+  margin-top: 10px;
 }
 
 .primary-link:hover {
