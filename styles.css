@@ -101,3 +101,24 @@ p {
 .primary-link:hover {
   color: black;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .titletext,
+  .textinfo,
+  .weathertext {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .titletext,
+  .weathertext {
+    font-size: 40px;
+  }
+  .textinfo {
+    font-size: 18px;
+  }
+}
