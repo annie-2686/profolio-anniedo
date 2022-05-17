@@ -102,7 +102,7 @@ p {
   color: black;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   h1 {
     font-size: 60px;
   }
@@ -120,5 +120,10 @@ p {
   }
   .textinfo {
     font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .primary-link {
+    margin-left: 150px;
   }
 }
