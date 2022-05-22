@@ -102,9 +102,10 @@ p {
   color: black;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 965px) {
   h1 {
     font-size: 60px;
+    padding: 0px;
   }
 
   .titletext,
