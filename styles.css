@@ -102,10 +102,9 @@ p {
   color: black;
 }
 
-@media (max-width: 965px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 60px;
-    
   }
 
   .titletext,
@@ -125,6 +124,6 @@ p {
   }
 
   .primary-link {
-    margin-left: 150px;
+    margin-left: 100px;
   }
 }
